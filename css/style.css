@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text--white {
+  color: white;
+}
+
+header {
+  width: 100%;
+  background: rgb(43, 33, 220);
+  background: linear-gradient(7deg, rgb(43, 33, 220) 0%, rgb(96, 99, 254) 0%, rgb(0, 212, 255) 100%);
+  padding: 30px 0px;
+}
+
+.conteiner-header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.conteiner-header__logo {
+  padding-bottom: 50px;
+}
+.conteiner-header__left {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: flex-start;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 30px;
+}
+.conteiner-header__left__h1 {
+  margin: 10px 0px;
+  padding: 0;
+}
+.conteiner-header__left__span {
+  font-size: 40px;
+  font-family: "Ubuntu";
+  font-weight: bold;
+}
+.conteiner-header__left__p {
+  width: 400px;
+  margin: 20px 0px;
+}
+.conteiner-header__left__button {
+  background-color: #fce300;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.section-first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 200px 100px 200px;
+}
+.section-first__container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+}
+.section-first__container-block {
+  width: 200px;
+}
+
+.section-second {
+  display: flex;
+  background-color: #e9f6ff;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 200px 100px 200px;
+  text-align: center;
+  align-items: center;
+}
+.section-second form {
+  display: flex;
+  flex-direction: column;
+}
+.section-second form input {
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0px;
+  width: 300px;
+}
+.section-second form button {
+  background-color: rgb(247, 247, 108);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.title {
+  text-align: center;
+  padding: 50px 0px 30px 0px;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.footer {
+  text-align: center;
+  padding: 50px 0px;
+  background: rgb(43, 33, 220);
+  background: linear-gradient(160deg, rgb(43, 33, 220) 0%, rgb(157, 159, 255) 0%, rgb(92, 104, 254) 64%, rgb(0, 212, 255) 100%);
+}/*# sourceMappingURL=style.css.map */
