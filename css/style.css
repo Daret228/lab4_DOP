@@ -1,3 +1,33 @@
+@keyframes switch-bg1 {
+  0% {
+    background-color: #fce300;
+  }
+  50% {
+    background-color: #fcc100;
+  }
+  100% {
+    background-color: #fc7e00;
+  }
+}
+@keyframes switch-bg2 {
+  0% {
+    background-color: rgb(247, 247, 108);
+  }
+  50% {
+    background-color: rgb(201, 201, 0);
+  }
+  100% {
+    background-color: rgb(133, 133, 3);
+  }
+}
+@keyframes switch-col {
+  0% {
+    color: #000000;
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
 body {
   margin: 0;
   padding: 0;
@@ -50,6 +80,7 @@ header {
   background-color: #fce300;
   padding: 10px 15px;
   text-decoration: none;
+  animation: switch-bg1 2s linear 0s infinite alternate;
 }
 .conteiner-header__right__img {
   width: 350px;
@@ -95,6 +126,7 @@ header {
   background-color: rgb(247, 247, 108);
   padding: 20px;
   border-radius: 10px;
+  animation: switch-bg2 4s ease 0s infinite alternate;
 }
 
 .title {
