@@ -51,6 +51,9 @@ header {
   padding: 10px 15px;
   text-decoration: none;
 }
+.conteiner-header__right__img {
+  width: 350px;
+}
 
 .section-first {
   display: flex;

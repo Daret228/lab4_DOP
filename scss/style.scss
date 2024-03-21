@@ -64,6 +64,11 @@ header {
             text-decoration: none;
         }
     }
+    &__right{
+        &__img{
+            width: 350px;
+        }
+    }
 }
 
 .conteiner-header__right {
