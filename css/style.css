@@ -86,9 +86,9 @@ header {
   flex-direction: column;
 }
 .section-second form input {
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
-  margin: 10px 0px;
+  margin: 5px 0px;
   width: 300px;
 }
 .section-second form button {
@@ -99,7 +99,7 @@ header {
 
 .title {
   text-align: center;
-  padding: 50px 0px 30px 0px;
+  padding: 30px 0px 15px 0px;
   font-size: 35px;
   font-weight: bolder;
 }
