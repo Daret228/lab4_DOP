@@ -93,7 +93,6 @@ header {
 }
 
 .section-first{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,9 +107,21 @@ header {
 
         &-block{
             width: 200px;
+            font-size: 17px;
+            transition: font-size 2s;
+            &:hover{
+                font-size: 20px;
+            }
+        }
+        &-img{
+            width: 80px;
+            transition: transform 1s, width 1s;
+            &:hover{
+                transform: rotate(5deg);
+                width: 90px;
         }
     }
-}
+}}
 
 .section-second{
     display: flex;

@@ -101,6 +101,19 @@ header {
 }
 .section-first__container-block {
   width: 200px;
+  font-size: 17px;
+  transition: font-size 2s;
+}
+.section-first__container-block:hover {
+  font-size: 20px;
+}
+.section-first__container-img {
+  width: 80px;
+  transition: transform 1s, width 1s;
+}
+.section-first__container-img:hover {
+  transform: rotate(5deg);
+  width: 90px;
 }
 
 .section-second {
