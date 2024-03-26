@@ -21,6 +21,13 @@ body {
     box-sizing: border-box;
 }
 
+.title{
+    text-align: center;
+    padding: 30px 0px 15px 0px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
 .text--white {
     color: white;
 }
@@ -41,6 +48,7 @@ header {
 }
 .logo {
 }
+
 .conteiner-header {
     display: flex;
     justify-content: center;
@@ -153,16 +161,44 @@ header {
     }
 }
 
-.title{
-    text-align: center;
-    padding: 30px 0px 15px 0px;
-    font-size: 35px;
-    font-weight: bolder;
-}
-
 .footer{
     text-align: center;
     padding: 50px 0px;
     background: rgb(43,33,220);
 background: linear-gradient(160deg, rgba(43,33,220,1) 0%, rgba(157,159,255,1) 0%, rgba(92,104,254,1) 64%, rgba(0,212,255,1) 100%);
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media screen and (max-width: 768px) {
+    .section-first{
+        padding: 0px 50px 70px 50px;
+    }
+
+    .section-second{
+        padding: 20px 50px 70px 50px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media screen and (max-width: 576px) {
+    .section-first{
+        padding: 0px 0px 70px 0px;
+    }
+
+    .section-second{
+        padding: 20px 0px 70px 0px;
+    }
+
+    .conteiner-header{
+        &__left{
+            align-items: center;
+            &__h1, &__p{
+                text-align: center;
+            }
+        }
+    }
+
+    .logo{
+        padding-bottom: 0px;
+    }
 }
