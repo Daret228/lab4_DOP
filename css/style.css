@@ -156,13 +156,31 @@ header {
   background: linear-gradient(160deg, rgb(43, 33, 220) 0%, rgb(157, 159, 255) 0%, rgb(92, 104, 254) 64%, rgb(0, 212, 255) 100%);
 }
 
-/* Medium devices (tablets, 768px and up)*/
-@media screen and (max-width: 768px) {
+/* Large devices (1300px and up)*/
+@media screen and (max-width: 1300px) {
   .section-first {
-    padding: 0px 50px 70px 50px;
+    padding: 0px 40px 70px 40px;
   }
   .section-second {
-    padding: 20px 50px 70px 50px;
+    padding: 20px 40px 70px 40px;
+  }
+}
+/* Medium devices (tablets, 830px and up)*/
+@media screen and (max-width: 830px) {
+  .section-first {
+    padding: 0px 20px 70px 20px;
+  }
+  .section-second {
+    padding: 20px 20px 70px 20px;
+  }
+  .conteiner-header__left {
+    align-items: center;
+  }
+  .conteiner-header__left__h1, .conteiner-header__left__p {
+    text-align: center;
+  }
+  .logo {
+    padding-bottom: 0px;
   }
 }
 /*Small devices (landscape phones, 576px and up)*/
