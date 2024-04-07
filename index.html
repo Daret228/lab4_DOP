@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
     <head>
         <meta charset="UTF-8" />
@@ -87,10 +87,10 @@
             <section class="section-second">
                 <h1 class="title animate__animated animate__heartBeat">Форма заказа обратного звонка</h1>
                 <form action="" placeholder="Имя">
-                    <input type="text" placeholder="Имя">
-                    <input type="email" placeholder="Email">
-                    <input type="tel" placeholder="Телефон">
-                    <input type="text" placeholder="Какая тема интересует?">
+                    <input type="text" placeholder="Имя" required pattern="[a-z]+|[а-я]+">
+                    <input type="email" placeholder="Email" required>
+                    <input type="tel" placeholder="Телефон" requiredy pattern="((\+7)|8)\d{10}">
+                    <input type="text" placeholder="Какая тема интересует?" required>
                     <button type="submit" method="post">Отправить вопрос!</button>
                 </form>
             </section>
