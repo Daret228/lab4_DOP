@@ -160,6 +160,35 @@ header {
     }
 }
 
+.section-second-dop{
+    display: flex;
+    background-color: #e9f6ff;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 200px 100px 200px;
+    text-align: center;
+    align-items: center;
+
+    form{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            padding: 15px;
+            border-radius: 10px;
+            margin: 5px 0px;
+            width: 300px;
+        }
+
+        button{
+            background-color: rgb(247, 247, 108);
+            padding: 20px;
+            border-radius: 10px;
+            animation: switch-bg2 4s ease 0s infinite alternate;
+        }
+    }
+}
+
 .footer{
     text-align: center;
     padding: 50px 0px;

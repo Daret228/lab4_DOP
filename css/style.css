@@ -28,7 +28,6 @@
     color: rgb(255, 255, 255);
   }
 }
-
 body {
   margin: 0;
   padding: 0;
@@ -104,7 +103,6 @@ header {
 .section-first__container {
   display: flex;
   justify-content: space-around;
-  flex-direction: wrap;
   flex-wrap: wrap;
 }
 .section-first__container-block {
@@ -144,6 +142,32 @@ header {
   width: 300px;
 }
 .section-second form button {
+  background-color: rgb(247, 247, 108);
+  padding: 20px;
+  border-radius: 10px;
+  animation: switch-bg2 4s ease 0s infinite alternate;
+}
+
+.section-second-dop {
+  display: flex;
+  background-color: #e9f6ff;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 200px 100px 200px;
+  text-align: center;
+  align-items: center;
+}
+.section-second-dop form {
+  display: flex;
+  flex-direction: column;
+}
+.section-second-dop form input {
+  padding: 15px;
+  border-radius: 10px;
+  margin: 5px 0px;
+  width: 300px;
+}
+.section-second-dop form button {
   background-color: rgb(247, 247, 108);
   padding: 20px;
   border-radius: 10px;
