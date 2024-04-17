@@ -86,14 +86,16 @@
 
             <section class="section-second-dop">
                 <h1 class="title animate__animated animate__heartBeat">Регистрация</h1>
-                <form action="" placeholder="Имя">
-                    <input type="text" placeholder="Имя">
-                    <input type="password" placeholder="Пароль">
-                    <input type="email" placeholder="Email">
-                    <input type="tel" placeholder="Телефон">                    
+                <form id="form" action="" placeholder="Имя">
+                    <input type="text" placeholder="Имя" id="name">
+                    <input type="password" placeholder="Пароль" id="pass">
+                    <input placeholder="Email" id="email">
+                    <input type="tel" placeholder="Телефон" id="tell">                    
                     <button type="submit" method="post">Зарегистрироваться</button>
                 </form>
             </section>
+
+            <script src="js/form_valid.js"></script>
 
             <section class="section-second">
                 <h1 class="title animate__animated animate__heartBeat">Форма заказа обратного звонка</h1>
@@ -105,7 +107,7 @@
                     <button type="submit" method="post">Отправить запрос!</button>
                 </form>
             </section>
-
+            
         </main>
 
         <footer class="footer text--white">ⒸВсё на этом сайте защищено</footer>
