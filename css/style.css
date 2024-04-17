@@ -177,7 +177,6 @@ header {
 .footer {
   text-align: center;
   padding: 50px 0px;
-  background: rgb(43, 33, 220);
   background: linear-gradient(160deg, rgb(43, 33, 220) 0%, rgb(157, 159, 255) 0%, rgb(92, 104, 254) 64%, rgb(0, 212, 255) 100%);
 }
 
