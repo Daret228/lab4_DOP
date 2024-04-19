@@ -5,19 +5,31 @@ document.getElementById("form").addEventListener("submit", function(event) {
     var tellInput = document.getElementById("tell");
 
     if (!isValidName(nameInput.value)) {
-        alert("Введите имя");
+        document.getElementById("nameError").textContent = "Введите имя";
+        event.preventDefault();
+    } else {
+        document.getElementById("nameError").textContent = "";
     }
 
     if (!isValidPassword(passInput.value)) {
-        alert("Введите пароль от 6ти символов");
+        document.getElementById("passError").textContent = "Введите больше 8 символов";
+        event.preventDefault();
+    } else {
+        document.getElementById("passError").textContent = "";
     }
 
     if (!isValidEmail(emailInput.value)) {
-        alert("Введите корректный email");
+        document.getElementById("emailError").textContent = "Введите email в формате пример@пример.пример";
+        event.preventDefault();
+    } else {
+        document.getElementById("emailError").textContent = "";
     }
 
     if (!isValidPhone(tellInput.value)) {
-        alert("Введите корректный номер телефона");
+        document.getElementById("tellError").textContent = "Введите корректный номер телефона";
+        event.preventDefault();
+    } else {
+        document.getElementById("tellError").textContent = "";
     }
 });
 
@@ -26,15 +38,15 @@ function isValidName(name) {
 }
 
 function isValidPassword(password) {
-    return password.length >= 6;
+    return password.length >= 8;
 }
 
 function isValidEmail(email) {
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailRegex.test(email);
 }
 
 function isValidPhone(phone) {
-    var phoneRegex = /^((\+7)|8)\d{10}$/;
-    return phone;
+    let phoneRegex = /^((\+7)|8)\d{10}$/;
+    return phoneRegex.test(phone);
 }

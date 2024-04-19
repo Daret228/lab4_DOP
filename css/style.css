@@ -161,6 +161,11 @@ header {
   display: flex;
   flex-direction: column;
 }
+
+.error{
+  color: red; 
+}
+
 .section-second-dop form input {
   padding: 15px;
   border-radius: 10px;

@@ -86,12 +86,20 @@
 
             <section class="section-second-dop">
                 <h1 class="title animate__animated animate__heartBeat">Регистрация</h1>
-                <form id="form" action="" placeholder="Имя">
-                    <input type="text" placeholder="Имя" id="name">
-                    <input type="password" placeholder="Пароль" id="pass">
-                    <input placeholder="Email" id="email">
-                    <input type="tel" placeholder="Телефон" id="tell">                    
-                    <button type="submit" method="post">Зарегистрироваться</button>
+                <form id="form">
+                    <input type="text" id="name" placeholder="Name">
+                    <span class="error" id="nameError"></span><br>
+                    
+                    <input type="password" id="pass" placeholder="Password">
+                    <span class="error" id="passError"></span><br>
+                    
+                    <input type="email" id="email" placeholder="Email">
+                    <span class="error" id="emailError"></span><br>
+                    
+                    <input type="tel" id="tell" placeholder="Phone">
+                    <span class="error" id="tellError"></span><br>
+                    
+                    <button type="submit">Отправить</button>
                 </form>
             </section>
 
@@ -99,7 +107,7 @@
 
             <section class="section-second">
                 <h1 class="title animate__animated animate__heartBeat">Форма заказа обратного звонка</h1>
-                <form action="" placeholder="Имя">
+                <form action="" placeholder="">
                     <input type="text" placeholder="Имя" required pattern="[a-z]+|[а-я]+">
                     <input type="email" placeholder="Email" required>
                     <input type="tel" placeholder="Телефон" requiredy pattern="((\+7)|8)\d{10}">
